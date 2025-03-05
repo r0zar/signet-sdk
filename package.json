@@ -25,7 +25,9 @@
   "dependencies": {},
   "devDependencies": {
     "typescript": "^5.x",
-    "eslint": "^9.x",
+    "eslint": "^8.56.0",
+    "@typescript-eslint/eslint-plugin": "^7.x",
+    "@typescript-eslint/parser": "^7.x",
     "prettier": "^3.x",
     "vitest": "^3.0.7",
     "@vitest/coverage-v8": "^3.0.7",

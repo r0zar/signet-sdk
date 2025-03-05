@@ -1,0 +1,31 @@
+{
+  "name": "signet-sdk",
+  "version": "0.1.0",
+  "description": "Client-side SDK for integrating websites with the Signet extension",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "lint": "eslint src --ext .ts",
+    "format": "prettier --write src/**/*.ts"
+  },
+  "keywords": [
+    "signet",
+    "chrome-extension",
+    "sdk",
+    "web3"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^5.x",
+    "eslint": "^9.x",
+    "prettier": "^3.x",
+    "jest": "^29.x",
+    "@types/jest": "^29.x"
+  }
+}
